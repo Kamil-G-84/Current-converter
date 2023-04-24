@@ -1,6 +1,6 @@
 # Current-converter
 
-![Converter](image/graphics.jpg) 
+![Converter](image/money.jpg) 
 
 ##Demo
 
