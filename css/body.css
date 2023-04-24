@@ -11,4 +11,7 @@ html {
 .body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
+    background-image: url("https://i.postimg.cc/sgFmDcpn/background-Money.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
