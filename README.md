@@ -4,7 +4,7 @@
 
 ## Demo
 
-https://github.com/Kamil-G-84/Current-converter.git
+https://kamil-g-84.github.io/Current-converter/
 
 ## Description
 
