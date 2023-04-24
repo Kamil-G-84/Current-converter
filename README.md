@@ -1,5 +1,7 @@
 # Current-converter
 
+![Converter](image/graphics.jpg) 
+
 ##Demo
 
 https://github.com/Kamil-G-84/Current-converter.git
