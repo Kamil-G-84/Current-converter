@@ -1,6 +1,6 @@
 .background {
-    width: 300px;
-    height: 300px;
-    overflow: auto;
     background-image: url ("../image/backgroundMoney.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
