@@ -19,4 +19,4 @@ I present my currency converter, where you can convert Polish zloty to currencie
 - GIT
 
 ### Folders:
-The files include folders such as : css, js, image and index.html.
+The files include folders such as : css, js, image and index.html
