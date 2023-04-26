@@ -14,28 +14,31 @@
 
             case "COP":
                 return amount / currencyPeso;
-
         }
     };
-
-    const formElement = document.querySelector(".js-form");
 
     const init = () => {
-        formElement.addEventListener("submit"), (event) => {
+
+        const formElement = document.querySelector(".js-form");
+
+        formElement.addEventListener("submit", (event) => {
             event.preventDefault();
 
-            const currencyElement = document.querySelector(".js-currency");
             const amountElement = document.querySelector(".js-amount");
+            const currencyElement = document.querySelector(".js-currency");
             const resultElement = document.querySelector(".js-result");
 
-            const currency = currencyElement.value;
             const amount = +amountElement.value;
-
-            const result = calculateResult(amount, currency)
+            const currency = currencyElement.value;
+           
+            const result = calculateResult(amount, currency);
 
             resultElement.innerHTML = `${amount.toFixed(2)} PLN = ${result.toFixed(2)} ${currency}`;
-        }
-    };
+        
+    });
+    
+};
 
-    init();
+init();
+
 }
