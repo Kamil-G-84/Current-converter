@@ -6,7 +6,7 @@
 
     const calculateResult = (amount, currency) => {
 
-    const currencyDolar = 4,16;
+    const currencyDolar = 4.16;
     const currencyEuro = 4.59;
     const currencyPeso = 0.00092;
 
