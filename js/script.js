@@ -29,7 +29,7 @@
         const currency = currencyElement.value;
         const amount = +amountElement.value;
         
-        let result = calculateResult(amount, currency)
+        const result = calculateResult(amount, currency)
 
         resultElement.innerHTML = `${amount.toFixed(2)} PLN = ${result.toFixed(2)} ${currency}`;
     });
