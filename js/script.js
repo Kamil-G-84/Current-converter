@@ -4,29 +4,32 @@
     const amountElement = document.querySelector(".js-amount");
     const resultElement = document.querySelector(".js-result");
 
-    const currencyDolar = 4.21;
-    const currencyEuro = 4.64;
-    const currencyPeso = 0.00094;
+    const calculateResult = (amount, currency) => {
 
+    const currencyDolar = 4,16;
+    const currencyEuro = 4.59;
+    const currencyPeso = 0.00092;
+
+    switch (currency) {
+        case "USD":
+            return amount / currencyDolar;
+            
+        case "EUR":
+            return amount / currencyEuro;
+            
+        case "COP":
+            return amount / currencyPeso;
+            
+        }
+    };
 
     formElement.addEventListener("submit", (event) => {
         event.preventDefault();
 
         const currency = currencyElement.value;
         const amount = +amountElement.value;
-        let result = resultElement.value;
-
-        switch (currency) {
-            case "USD":
-                result = amount / currencyDolar;
-                break;
-            case "EUR":
-                result = amount / currencyEuro;
-                break;
-            case "COP":
-                result = amount / currencyPeso;
-                break;
-        }
+        
+        let result = calculateResult(amount, currency)
 
         resultElement.innerHTML = `${amount.toFixed(2)} PLN = ${result.toFixed(2)} ${currency}`;
     });
