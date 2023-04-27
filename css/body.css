@@ -9,6 +9,7 @@ html {
 }
 
 .body {
+    flex-basis: 700px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
     background-image: url("../image/backgroundMoney.jpg");
