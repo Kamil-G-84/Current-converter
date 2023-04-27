@@ -36,10 +36,12 @@ In this folder there is a script.js file in which an algorithm is written that c
 
 ## Instructional video
 
-![Current-converter](image/Calculate.jpg)
-Link => https://www.youtube.com/watch?v=ceeplai3Yx0
+![Current-converter](image/Calculate.JPG)
 
-***Exchange rates come from 26/04/2023 from the Money.pl website***
+Link => https://www.youtube.com/watch?v=ceeplai3Yx0
 
 ## README
 Readme will evolve with the project. Be sure to check back here often to stay up to date.
+
+
+***Exchange rates come from 26/04/2023 from the Money.pl website***
