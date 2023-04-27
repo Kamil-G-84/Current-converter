@@ -1,6 +1,6 @@
 # Current-converter
 
-![Converter](image/money.jpg) 
+![Converter](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2Y2MWRiNTUzMDdlMjRkMGJkZTkxNGYxOTI0OGE0YTkxMWM4NzRhYSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/i85wKetLxZbtBk0BT7/giphy.gif) 
 
 ## Demo
 
